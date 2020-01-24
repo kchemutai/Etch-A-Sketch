@@ -1,0 +1,25 @@
+.header{
+  text-align:center;
+  margin-bottom: 20px;
+}
+.header>button{
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.header>button:hover{
+  color: blue;
+  transform: scale(1.1);
+}
+.container{
+  display: grid;
+  border: 1px solid black;
+  height: 900px;
+  width: 900px;
+  margin: 0 auto;
+}
+.gridElement{
+  border: 1px solid black;
+}
+
