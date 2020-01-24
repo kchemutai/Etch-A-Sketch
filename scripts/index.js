@@ -86,7 +86,7 @@ function paintRandomColor(){
 multicolorButton.addEventListener('click',paintRandomColor);
 
 //function to remove colors from the grid/ clear grid.
-function clearGrids(){
+function clearGrid(){
   let gr=document.querySelectorAll(".gridElement");
   for(let i=0; i<gr.length;i++){
     gr[i].style.backgroundColor="white";
